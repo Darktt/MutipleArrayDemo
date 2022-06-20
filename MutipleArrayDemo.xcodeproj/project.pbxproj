@@ -13,6 +13,10 @@
 		F2D808B42860476000561B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D808B22860476000561B38 /* Main.storyboard */; };
 		F2D808B62860476100561B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D808B52860476100561B38 /* Assets.xcassets */; };
 		F2D808B92860476100561B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D808B72860476100561B38 /* LaunchScreen.storyboard */; };
+		F2D808C1286047DD00561B38 /* FirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D808C0286047DD00561B38 /* FirstCell.swift */; };
+		F2D808C3286048EE00561B38 /* CustomCellRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D808C2286048EE00561B38 /* CustomCellRegistrable.swift */; };
+		F2D808C5286049D100561B38 /* SecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D808C4286049D100561B38 /* SecondCell.swift */; };
+		F2D808C7286049F700561B38 /* ThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D808C6286049F700561B38 /* ThirdCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F2D808B52860476100561B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2D808B82860476100561B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2D808BA2860476100561B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D808C0286047DD00561B38 /* FirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCell.swift; sourceTree = "<group>"; };
+		F2D808C2286048EE00561B38 /* CustomCellRegistrable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellRegistrable.swift; sourceTree = "<group>"; };
+		F2D808C4286049D100561B38 /* SecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCell.swift; sourceTree = "<group>"; };
+		F2D808C6286049F700561B38 /* ThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		F2D808AB2860476000561B38 /* MutipleArrayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F2D808C2286048EE00561B38 /* CustomCellRegistrable.swift */,
 				F2D808AC2860476000561B38 /* AppDelegate.swift */,
 				F2D808AE2860476000561B38 /* SceneDelegate.swift */,
 				F2D808B02860476000561B38 /* ViewController.swift */,
+				F2D808C0286047DD00561B38 /* FirstCell.swift */,
+				F2D808C4286049D100561B38 /* SecondCell.swift */,
+				F2D808C6286049F700561B38 /* ThirdCell.swift */,
 				F2D808B22860476000561B38 /* Main.storyboard */,
 				F2D808B52860476100561B38 /* Assets.xcassets */,
 				F2D808B72860476100561B38 /* LaunchScreen.storyboard */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D808C7286049F700561B38 /* ThirdCell.swift in Sources */,
 				F2D808B12860476000561B38 /* ViewController.swift in Sources */,
+				F2D808C5286049D100561B38 /* SecondCell.swift in Sources */,
+				F2D808C3286048EE00561B38 /* CustomCellRegistrable.swift in Sources */,
 				F2D808AD2860476000561B38 /* AppDelegate.swift in Sources */,
+				F2D808C1286047DD00561B38 /* FirstCell.swift in Sources */,
 				F2D808AF2860476000561B38 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
